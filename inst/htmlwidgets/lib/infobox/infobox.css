@@ -1,0 +1,104 @@
+.infobox .chart-notes ul{
+  margin-bottom: 0px;
+}
+/*
+.chart-stage h1,
+.chart-stage b{
+  text-align: center;
+}
+*/
+.infobox .statistic{
+  font-size: 5em;
+  line-height: 1em;
+  /*text-align: center;*/
+  color: steelblue;
+  font-weight: normal;
+}
+
+span.number{
+   vertical-align: middle;
+}
+.infobox span.measure{
+  display: block;
+  opacity: 0.6;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.hc-name{
+  font-weight: normal !important;
+}
+div.chart-notes{
+}
+
+.infobox .metric{
+  text-align: center;
+  display: block;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.infobox .items{
+  padding-top: 10px;
+  min-height: 60px;
+  background: #eee;
+}
+.infobox .items span.title{
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+.infobox .items .col-xs-4{
+    border-right: 1px solid lightgray;
+
+}
+
+.infobox .details{
+    color:#777;
+    line-height:1.5em;
+    background:#fff;
+    border:solid 1px #ddd;
+    position:absolute;
+    width:300px;
+    border-radius:3px;
+    left: -5px;
+    top:-10px;
+    z-index:50;
+    padding:2em 10px 10px;
+    box-shadow:5px 5px 5px #888;
+    opacity: 0;
+}
+
+.infobox div.chart-stage{
+  text-align: center;
+}
+
+.infobox span.measure2{
+  display: block;
+  opacity: 0.6;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.infobox .measure{
+  cursor: pointer;
+}
+.infobox .active {
+  background: steelblue;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+.active:hover{
+  color: black;
+}
+.infobox .chart-wrapper .chart-stage{
+  text-align: center;
+  padding-left: 15px;
+}
+/*
+.infobox .metrics{
+  margin-top: 8px;
+}
+*/
+.infobox .chart-wrapper .chart-notes{
+  text-align: center;
+}

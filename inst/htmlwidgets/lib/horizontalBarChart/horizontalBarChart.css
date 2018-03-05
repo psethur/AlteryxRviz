@@ -1,0 +1,30 @@
+.horizontalBarChart .x-axis-layer path,
+.horizontalBarChart .x-axis-layer line {
+  fill: none;
+  stroke: #aaa;
+  shape-rendering: crispEdges;
+}
+
+.horizontalBarChart .x-axis-layer text {
+  font-family: sans-serif;
+}
+.horizontalBarChart .y-axis-layer path,
+.horizontalBarChart .y-axis-line line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.horizontalBarChart .y-axis-layer text {
+  font-family: sans-serif;
+}
+
+.horizontalBarChart rect.hbar:hover{
+  fill: darkred;
+}
+.horizontalBarChart svg text{
+  font-size: 12px;
+}
+.horizontalBarChart text.hbarlabel{
+  font-size: 14px;
+}

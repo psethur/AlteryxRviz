@@ -1,0 +1,18 @@
+.tablechart{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+  color: black;
+  font-weight: normal;
+}
+.sorted {
+    font-weight: bold;
+}
+/* FIXME: Sort arrows not working
+.sorted::after{
+   content: "\e093";
+}
+*/

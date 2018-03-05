@@ -1,0 +1,21 @@
+.iConfusionMatrix .y-axis-layer path,
+.iConfusionMatrix .y-axis-layer line{
+  fill: none;
+}
+.iConfusionMatrix .x-axis-layer path,
+.iConfusionMatrix .x-axis-layer line{
+  fill: none;
+}
+.iConfusionMatrix .y-axis-layer text,
+.iConfusionMatrix .x-axis-layer text{
+  font-size: 11px;
+  fill-opacity: 0.6;
+}
+.iConfusionMatrix .cell {
+  stroke: #ddd;
+}
+.iConfusionMatrix .cell .label{
+  stroke: black;
+  font-size: 10px;
+  font-weight: normal;
+}

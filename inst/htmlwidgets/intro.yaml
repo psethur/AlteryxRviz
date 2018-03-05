@@ -1,0 +1,11 @@
+dependencies:
+- name: intro.js
+  version: 1.0.0
+  src: htmlwidgets/lib/introjs/newintro
+  script: intro.js
+  style: introjs.css
+- name: bootstrap
+  version: 3.3.3
+  src: htmlwidgets/lib/bootstrap
+  style: css/bootstrap.css
+

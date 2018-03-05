@@ -1,0 +1,26 @@
+dependencies:
+ - name: jquery
+   src: htmlwidgets/lib/jquery
+   version: 2.1.1
+   script: dist/jquery.min.js
+ - name: bootstrap
+   version: 3.3.3
+   src: htmlwidgets/lib/bootstrap
+   style: css/bootstrap.css
+ - name: keen
+   version: 0.9
+   src: htmlwidgets/lib/keen-js/dist
+   stylesheet: css/keen-dashboards.css
+ - name: d3
+   version: 3.5.5
+   src: htmlwidgets/lib/d3
+   script: d3.min.js
+ - name: d3extras
+   version: 0.1
+   src: htmlwidgets/lib/d3extras
+   script: [d3-jetpack.js, visutils.js]
+ - name: infobox
+   version: 0.1
+   src: htmlwidgets/lib/infobox
+   script: infobox.js
+   stylesheet: infobox.css

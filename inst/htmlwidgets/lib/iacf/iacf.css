@@ -1,0 +1,60 @@
+body {
+  font-family: "Helvetica";
+}
+.line{
+  stroke-width: 3px;
+  stroke: steelblue;
+}
+
+.axis path,
+.axis line{
+  fill: none;
+  stroke: #aaa;
+}
+.axis text{
+   fill: #aaa;
+   font-size: 14px;
+}
+
+.d3-tip{
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+/* make y axis line transparent */
+.y.axis path{
+  stroke: transparent;
+}
+/* reduce opacity of horizontal grid lines */
+.y.axis .tick line {
+  stroke-opacity: 0.4;
+}
+
+.x-axis-layer line, .y-axis-layer line,
+.x-axis-layer path, .y-axis-layer path {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+.x-axis-layer text, .y-axis-layer text{
+  fill: #aaa;
+}
+.y-axis-layer path {
+  stroke: transparent;
+}
+/*
+.line{
+  stroke-width: 3px;
+}
+*/
+.x-axis label{
+  fill: red;
+}
+/* increase line-height for tooltip */
+.d3-tip{
+  font-weight: normal;
+  line-height: 1.5em;
+}
+.container {
+   margin-top: 20px;
+}

@@ -1,0 +1,10 @@
+dependencies:
+- name: jquery
+  src: htmlwidgets/lib/jquery
+  version: 2.1.1
+  script: dist/jquery.min.js
+- name: hovercard
+  src: htmlwidgets/lib/hovercard
+  version: 0.1
+  script: jquery.hovercard.min.js
+  style: jquery.hovercard.css

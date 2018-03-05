@@ -1,0 +1,19 @@
+Package: AlteryxRviz
+Type: Package
+Title: Interactive Visualizations for Predictive Tools in Alteryx
+Version: 0.2.5
+Date: 2015-06-09
+Author: Ramnath Vaidyanathan
+Maintainer: Ramnath Vaidyanathan <ramnath.vaidya@gmail.com>
+Description: This package provides functions that drive interactive visualizations for the predictive tools in Alteryx (Time Series, Network Analysis).
+License: MIT + file LICENSE
+LazyData: TRUE
+Imports:
+  yaml,
+  forecast,
+  xts,
+  htmltools,
+  htmlwidgets,
+  dygraphs,
+  igraph,
+  RColorBrewer

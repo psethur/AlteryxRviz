@@ -1,0 +1,23 @@
+dependencies:
+ - name: d3
+   version: 3.5.5
+   src: htmlwidgets/lib/d3
+   script: d3.min.js
+ - name: d3extras
+   version: 0.1
+   src: htmlwidgets/lib/d3extras
+   script: [d3-jetpack.js, visutils.js]
+ - name: "d3tip"
+   src: "htmlwidgets/lib/d3-tip"
+   version: 0.1.0
+   script: d3tip.js
+   style: d3tip.css
+ - name: "d3kit"
+   version: 0.1
+   src: "htmlwidgets/lib/d3kit"
+   script: "d3kit.min.js"
+ - name: "iacf"
+   src: htmlwidgets/lib/iacf
+   version: 0.1.0
+   script: iacf2.js
+   stylesheet: iacf.css

@@ -1,0 +1,70 @@
+.ihist .y-axis-layer line,
+.ihist .y-axis-layer path{
+   fill: none;
+}
+.ihist .y-axis-layer line{
+  stroke: #ddd;
+}
+.ihist .y-axis-layer text{
+  font-size: 10px;
+  fill: #aaa;
+  pointer-events: all;
+}
+.ihist .x-axis-layer line,
+.ihist .x-axis-layer path{
+   fill: none;
+}
+.ihist .x-axis-layer line{
+  stroke: #ddd;
+}
+.ihist .x-axis-layer text{
+  font-size: 10px;
+  fill: #aaa;
+  pointer-events: all;
+}
+body{
+  font-family: Helvetica;
+}
+#main{
+  margin-top: 20px;
+}
+.ihist .histtip{
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: normal;
+  font-size: 11px;
+}
+.ihist .expand{
+  cursor: pointer;
+}
+
+.ihist ul.infobox{
+  margin-left: 5px;
+}
+
+.ihist ul.infobox li.active {
+  background: steelblue;
+  border-radius: 3px;
+  color: whitesmoke;
+  padding: 6px;
+}
+.ihist ul.infobox li{
+  color: gray;
+  font-size: 11px;
+  cursor: pointer;
+}
+.ihist ul.infobox{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.ihist .list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.ihist .list-inline>li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+

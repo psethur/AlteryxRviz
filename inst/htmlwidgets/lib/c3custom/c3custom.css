@@ -1,0 +1,32 @@
+.c3 svg {
+  font-family: 'Arial' !important;
+}
+.c3-axis path,
+.c3-axis line{
+  stroke: #aaa;
+}
+.c3-axis text{
+  fill: #aaa;
+}
+/* use blue background on tooltip header */
+.c3-tooltip th {
+  background-color: steelblue;
+}
+/* remove border from legend */
+.c3-legend-background {
+  stroke: none;
+}
+.c3-axis-x .tick line{
+  stroke: transparent;
+}
+.c3-axis-y .tick line{
+  stroke: transparent;
+}
+.c3-axis-y path{
+  stroke: transparent;
+}
+.c3-ygrid {
+  stroke-dasharray: 3 0;
+  stroke: gray;
+  stroke-opacity: 0.5;
+}

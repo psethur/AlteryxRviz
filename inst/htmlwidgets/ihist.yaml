@@ -1,0 +1,22 @@
+dependencies:
+ - name: d3
+   version: 3.5.5
+   src: htmlwidgets/lib/d3
+   script: d3.min.js
+ - name: d3extras
+   version: 0.1
+   src: htmlwidgets/lib/d3extras
+   script: [d3-jetpack.js, visutils.js]
+ - name: "kodama"
+   src: "htmlwidgets/lib/kodama"
+   version: 0.1.0
+   script: kodama.js
+ - name: "d3kit"
+   version: 0.1
+   src: "htmlwidgets/lib/d3kit"
+   script: "d3kit.min.js"
+ - name: "ihist"
+   version: 0.1
+   src: "htmlwidgets/lib/ihist"
+   script: ihist2.js
+   style: ihist.css

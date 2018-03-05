@@ -1,0 +1,18 @@
+/*
+.hc-preview{
+  background: steelblue;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 5px;
+}
+.hc-preview:hover{
+  color: black;
+}
+*/
+span.hovercard{
+  color: steelblue;
+  font-weight: bolder;
+}
+.hc-details{
+  text-align: justify;
+}
