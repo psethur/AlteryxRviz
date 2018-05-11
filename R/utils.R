@@ -159,13 +159,16 @@ as_xts.weekday <- function(x){
   x2 = xts(v, order.by = order.by)
 }
 
+#as_xts.daily <- function(x){
+#  year = sprintf("%04d", start(x)[1])
+#  day = start(x)[2]
+#  from = strptime(paste(year, '01', day %% 7),
+#    format = paste('%Y', get_week_format(), '%w')
+#  )
+#  xts(x, order.by = seq(from, by = 'day', length = NROW(x)))
+#}
 as_xts.daily <- function(x){
-  year = sprintf("%04d", start(x)[1])
-  day = start(x)[2]
-  from = strptime(paste(year, '01', day %% 7),
-    format = paste('%Y', get_week_format(), '%w')
-  )
-  xts(x, order.by = seq(from, by = 'day', length = NROW(x)))
+ setNames(c(x),1:length(c(x)))   
 }
 
 as_xts.weekly <- function(x){
